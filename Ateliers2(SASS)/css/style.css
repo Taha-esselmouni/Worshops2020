@@ -1,0 +1,110 @@
+.form__button-div--submit {
+  padding: 1rem;
+  width: 90px;
+  background-color: #4f7df3;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__soon--clorh1 {
+  color: #969696;
+  font-size: 32px;
+  font-style: normal;
+}
+.container__subscribe {
+  font-weight: 40;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form__input-div {
+  margin-right: 2%;
+}
+.form__input-div--email {
+  font-size: 1rem;
+  padding: 1rem;
+  padding-right: 13rem;
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+.form__button-div--submit--submit:hover {
+  background-color: #c2d3ff;
+}
+
+.dash {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.dash__dashboard--img1 {
+  width: 50%;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+#social .fab {
+  margin-right: 4%;
+  color: #4f7df3;
+  padding: 0.5em;
+  border-radius: 50%;
+  border: 2px solid #c2d3ff;
+}
+#social .fab:hover {
+  background-color: #c2d3ff;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-weight: 20;
+  font-size: x-small;
+  color: silver;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+  }
+  .form__input-div {
+    margin-bottom: 2%;
+    width: 85%;
+  }
+  .form__input-div--email {
+    padding-right: 0rem;
+  }
+  .form__button-div {
+    width: 86%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
